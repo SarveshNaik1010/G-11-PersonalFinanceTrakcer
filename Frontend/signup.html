@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/css/signup.css">
+    <link rel="stylesheet" href="/css/media.css">
+    <script src="/js/app.js"></script>
+    <title>Budget</title>
+</head>
+<body>
+    <div class="nav">
+        <h1 class="nav-logo">Budget</h1>
+    </div>
+    <div class="signup-form-div flex-column">
+        <h1 class="signup-title">Signup Form</h1>
+        <div class="form-wrapper">
+            <form action="/submit-form" method="post">
+                <input class="form-input" type="text" id="name" name="name" placeholder="Your name"><br>
+                <input class="form-input" type="email" id="email" name="email" placeholder="Email ID"><br>
+                <input class="form-input" type="password" id="password" name="password" placeholder="Password"><br>
+                <input class="form-input" type="password" id="password-confirmation" name="password-confirmation" placeholder="Re-type password"><br>
+                    <div class="signup-controls flex">
+                        <a href="/login.html" class="login-redirect">Already have an account?</a>
+                        <input class="signup-btn" type="submit" value="Get started">
+                    </div>
+            </form>
+        </div>
+    </div>
+</body>
+</html>

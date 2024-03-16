@@ -1,0 +1,66 @@
+.nav{
+    height: 4rem;
+    width: 100vw;
+    color: #000;
+    background-color: #ffff;
+    font-family: "Borel", cursive;
+
+    display: flex;
+    align-items: center;
+}
+
+.nav-logo{
+    margin-top: 1rem;
+    margin-left: 1rem;
+}
+
+.signup-form-div{
+    height: 90vh;
+    gap: 3rem;
+}
+
+.signup-title{
+    text-align: center;
+}
+
+.form-wrapper{
+    height: auto;
+    background-color: #ffff;
+    padding: 3.2rem 1.6rem;
+    border-radius: 12px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+.form-input{
+    width: 24rem;
+    height: 3.4rem;
+    border: none;
+    border-radius: 12px;
+    color: #555555;
+    background-color: #F7F7F7;
+    margin: 5px;
+    padding: 12px;
+    font-size: 1.1rem;
+}
+
+.signup-controls{
+    width: 23rem;
+    gap: 2rem;
+    margin-top: 2rem;
+}
+
+.signup-btn{
+    height: 2.4rem;
+    width: 8rem;
+    border: none;
+    border-radius: 24px;
+    color: #ffff;
+    font-weight: 600;
+    cursor: pointer;
+    background-color: #00E917;
+}
+
+.login-redirect{
+    color: #000;
+    font-weight: 600;
+}
